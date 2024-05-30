@@ -9,21 +9,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "INFRA", "INFRA", "{30588FA8
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PRESENTATION", "PRESENTATION", "{2CAB53DA-7AA6-48F7-A1A2-D7AD09D65DA2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shopping-Coin.Application", "CORE\Shopping-Coin.Application\Shopping-Coin.Application.csproj", "{9F7D6AC7-71E1-462C-BAA0-C4CC8C88061E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shopping-Coin.Application", "CORE\Shopping-Coin.Application\Shopping-Coin.Application.csproj", "{9F7D6AC7-71E1-462C-BAA0-C4CC8C88061E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shopping-Coin.Dominio", "CORE\Shopping-Coin.Dominio\Shopping-Coin.Dominio.csproj", "{74A9C550-5169-4C58-997C-469F3B8971B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shopping-Coin.Dominio", "CORE\Shopping-Coin.Dominio\Shopping-Coin.Dominio.csproj", "{74A9C550-5169-4C58-997C-469F3B8971B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shopping-Coin.Infra", "INFRA\Shopping-Coin.Infra\Shopping-Coin.Infra.csproj", "{D38902FB-8000-4985-97EB-84D95F056E31}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shopping-Coin.Infra", "INFRA\Shopping-Coin.Infra\Shopping-Coin.Infra.csproj", "{D38902FB-8000-4985-97EB-84D95F056E31}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shopping-Coin.Data", "INFRA\Shopping-Coin.Data\Shopping-Coin.Data.csproj", "{D40C893F-F62E-45BC-AC38-AAEE859DD5FD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shopping-Coin.Data", "INFRA\Shopping-Coin.Data\Shopping-Coin.Data.csproj", "{D40C893F-F62E-45BC-AC38-AAEE859DD5FD}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Admin", "Admin", "{21873B6F-4BDA-414F-A91A-B1E5DE0969A1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Vitrine", "Vitrine", "{0DE56B87-9977-496B-BBA3-AB28A178AFFB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shopping-Coin.Spa", "PRESENTATION\Admin\Shopping-Coin.Spa\Shopping-Coin.Spa.csproj", "{72DBA8D8-E4CF-4F58-BDBA-77A28977AA0E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shopping-Coin.Spa", "PRESENTATION\Admin\Shopping-Coin.Spa\Shopping-Coin.Spa.csproj", "{72DBA8D8-E4CF-4F58-BDBA-77A28977AA0E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shopping-Coin.Ssr", "PRESENTATION\Vitrine\Shopping-Coin.Ssr\Shopping-Coin.Ssr.csproj", "{74EEB4B0-08A5-4861-882B-B5D7F58570C8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shopping-Coin.Ssr", "PRESENTATION\Vitrine\Shopping-Coin.Ssr\Shopping-Coin.Ssr.csproj", "{74EEB4B0-08A5-4861-882B-B5D7F58570C8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,0 +1,65 @@
+﻿@page "/login"                                      
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="col-md-6">
+        <picture>
+            <source srcset="..." type="image/svg+xml">
+            <img src="..." class="img-fluid img-thumbnail" alt="...">
+        </picture>
+    </div>
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+
+                <div class="card">
+                    <div class="card-header bg-primary text-white">
+                        <h4 class="mb-0">Login</h4>
+                    </div>
+                    <div class="card-body">
+                        <form>
+                            <!-- Email input -->
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" class="form-control" id="email" placeholder="Enter email">
+                            </div>
+
+                            <!-- Password input -->
+                            <div class="form-group">
+                                <label for="password">Password</label>                                                  @*   #Se a pessoa não tiver cadastro devera direcionar a uma tela de cadastro#*@
+                                <input type="password" class="form-control" id="password" placeholder="Password">
+                            </div>
+
+                            <!-- Remember me checkbox -->
+                            <div class="form-group form-check">
+                                <input type="checkbox" class="form-check-input" id="rememberMe">
+                                <label class="form-check-label" for="rememberMe">Lembrar-me</label>
+                            </div>
+
+                            <!-- Submit button -->
+                            <button type="submit" class="btn btn-primary btn-block">Login</button>
+                        </form>
+                    </div>
+                    <div class="card-footer text-center">
+                        <p>Não é cadastrado? <a href="#">Cadastre-se agora</a></p>
+                        <p><a href="#">Esqueceu a senha?</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+
+@code {
+
+}
